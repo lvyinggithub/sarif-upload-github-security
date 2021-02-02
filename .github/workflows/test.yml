@@ -1,0 +1,13 @@
+name: "upload-sarif"
+
+on: [ pull_request,workflow_dispatch]
+jobs:
+  upload-sarif:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout the code
+      uses: actions/checkout@v2
+    - name: upload Anchore scan SARIF report
+      uses: github/codeql-action/upload-sarif@v1
+      with:
+        sarif_file: ./test.sarif
