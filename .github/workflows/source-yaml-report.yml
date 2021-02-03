@@ -13,7 +13,4 @@ jobs:
         name: license-depscan
         path: ./license-go.json
       #if: ${{ always() }} 
-    - name: upload Anchore scan SARIF report
-      uses: github/codeql-action/upload-sarif@v1
-      with:
-        sarif_file: ./2.sarif
+
