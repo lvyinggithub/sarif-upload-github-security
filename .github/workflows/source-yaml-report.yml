@@ -1,4 +1,4 @@
-name: "upload-sarif"
+name: "upload-sarif2"
 
 on: [ pull_request,workflow_dispatch]
 jobs:
