@@ -19,7 +19,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "./source-yaml-report.sarif",
+                  "uri": "source-yaml-report.sarif",
                   "index": 0
                 },
                 "region": {
