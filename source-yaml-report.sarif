@@ -13,7 +13,7 @@
           "ruleId": "no-unused-vars",
           "level": "error",
           "message": {
-            "text": "'x' is assigned a value but never used."
+            "text": "test message info"
           },
           "locations": [
             {
