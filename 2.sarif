@@ -3,9 +3,9 @@
     {
       "tool": {
         "driver": {
-          "name": "Python Source Analyzer",
+          "name": "test2",
           "version": "1.0.0-scan",
-          "fullName": "Python Source Analyzer"
+          "fullName": "test2"
         }
       },
       "conversion": {
