@@ -5,7 +5,7 @@
     {
       "tool": {
         "driver": {
-          "name": "ESLint"
+          "name": "depscan"
         }
       },
       "results": [
@@ -19,7 +19,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/dev/sarif/sarif-tutorials/samples/Introduction/simple-example.js",
+                  "uri": "./source-yaml-report.sarif",
                   "index": 0
                 },
                 "region": {
