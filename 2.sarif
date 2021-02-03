@@ -34,7 +34,7 @@
           "ruleId": "TUT1001",
           "ruleIndex": 0,
           "message": {
-            "text": "This result is an error according to the default rule configuration."
+            "text": "This result is an error according to the default rule configuration.br/ This result is an error according to the default rule configuration.br/This result is an error according to the default rule configuration. br/"
           },
           "locations": [
             {
