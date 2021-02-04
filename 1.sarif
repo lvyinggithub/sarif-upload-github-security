@@ -11,12 +11,13 @@
           "name": "SarifSamples",
           "version": "1.0",
           "rules": [
+
             {
               "id": "TUT0001",
               "defaultConfiguration": {
-                "level": "warning"
+                "level": "warning",
                 "properties": {
-                  "comment": "'warning' is the default, TUT0001."
+                  "comment": "'warning' is the default, so this can be omitted."
                 }
               }
             }
@@ -39,13 +40,6 @@
               }
             }
           ]
-        },
-        {
-          "ruleId": "TUT1002",
-          "ruleIndex": 1,
-          "message": {
-            "text": "This result is a warning according to the default rule configuration."
-          }
         }
       ],
       "columnKind": "utf16CodeUnits"
