@@ -12,11 +12,11 @@
           "version": "1.0",
           "rules": [
             {
-              "id": "ruleId1",
+              "id": "TUT0001",
               "defaultConfiguration": {
-                "level": "error"
+                "level": "warning"
                 "properties": {
-                  "comment": "'warning' is the default, ruleId1."
+                  "comment": "'warning' is the default, TUT0001."
                 }
               }
             }
@@ -25,7 +25,7 @@
       },
       "results": [
         {
-          "ruleId": "ruleId1",
+          "ruleId": "TUT1001",
           "ruleIndex": 0,
           "message": {
             "text": "111111111111.\n 22222.\n 33333.\n"
@@ -37,9 +37,15 @@
                   "uri": "file:///C:/code/myProject/io/kb.c"
                 }
               }
-             
-            }}
+            }
           ]
+        },
+        {
+          "ruleId": "TUT1002",
+          "ruleIndex": 1,
+          "message": {
+            "text": "This result is a warning according to the default rule configuration."
+          }
         }
       ],
       "columnKind": "utf16CodeUnits"
