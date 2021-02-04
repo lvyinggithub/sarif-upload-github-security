@@ -8,13 +8,25 @@
     {
       "tool": {
         "driver": {
-          "name": "lisens",
+          "name": "SarifSamples",
           "version": "1.0",
           "rules": [
             {
-              "id": "TUT0001",
+              "id": "ruleId1",
               "defaultConfiguration": {
                 "level": "error"
+                "properties": {
+                  "comment": "'warning' is the default, ruleId1."
+                }
+              }
+            },
+            {
+              "id": "ruleId2",
+              "defaultConfiguration": {
+                "level": "warning",
+                "properties": {
+                  "comment": "'warning' is the default, ruleId2."
+                }
               }
             }
           ]
@@ -22,16 +34,32 @@
       },
       "results": [
         {
-          "ruleId": "TUT1001",
+          "ruleId": "ruleId1",
           "ruleIndex": 0,
           "message": {
-            "text": "123.\n 456.\n 789.\n"
+            "text": "111111111111.\n 22222.\n 33333.\n"
           },
           "locations": [
             {
               "physicalLocation": {
                 "artifactLocation": {
                   "uri": "file:///C:/code/myProject/io/kb.c"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "ruleId2",
+          "ruleIndex": 1,
+          "message": {
+            "text": "This result is a warning according to the default rule configuration."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/code/myProject/io/file.c"
                 }
               }
             }
