@@ -35,7 +35,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/xxx.json"
+                  "uri": "file:///C:/xxx.sarif"
                 }
               }
             }
