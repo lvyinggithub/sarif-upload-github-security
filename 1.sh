@@ -3,7 +3,7 @@ a=""
 json_file="111111111111.\n 22222.\n 444.\n"
 json_file='{"Package": "github.com/hashicorp:golang-lru", "Version": "v0.5.0", "License Id": "MPL-2.0", "License conditions": "disclose-source, include-copyright, same-license--file"} {"Package": "github.com/hashicorp:golang-lru", "Version": "v0.5.1", "License Id": "MPL-2.0", "License conditions": "disclose-source, include-copyright, same-license--file"}'
 echo $json_file
-json_file=$(cat 1.json | sed 's/[[:space:]]//g' | sed 's/"/\\"/g' ) 
+json_file=$(cat license-go.json | sed 's/[[:space:]]//g' | sed 's/"/\\"/g' ) 
 
 echo -e $json_file
 
