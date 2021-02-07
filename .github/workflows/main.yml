@@ -28,5 +28,8 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: sh 1.sh
-
+      - name: upload Anchore scan SARIF report
+        uses: github/codeql-action/upload-sarif@v1
+        with:
+          sarif_file: ./1.sarif
 
