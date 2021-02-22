@@ -34,7 +34,7 @@ jobs:
         id: convert
         uses: Veracode/veracode-pipeline-scan-results-to-sarif@v0.1.2
         with:
-          pipeline-results-json: ./license-go.json
+          pipeline-results-json: "./license-go.json"
           output-results-sarif: veracode-results.sarif
 
           finding-rule-level: "3:1:0"
